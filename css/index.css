@@ -70,13 +70,31 @@ body{
 .introduce{
     width: 1263px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
-.introduce .r{
-    margin-right: 20px;
+.introduce-tit{
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #555;
 }
 
-.introduce .l img{
+.introduce-main{
+    display: flex;
+}
+
+.introduce-main .l{
+    margin-right: 60px;
+}
+
+.introduce-main .l img{
     border-radius: 50%;
+}
+
+.introduce-main .r{
+    line-height: 50px;
+    font-size: 18px;
+    color: #555;
 }
